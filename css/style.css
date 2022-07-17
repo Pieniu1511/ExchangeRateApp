@@ -18,4 +18,95 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3F4859), to(#333D46));
+  background-image: linear-gradient(#3F4859, #333D46);
+  border: 1px solid #1C232D;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px #1C232D;
+          box-shadow: 0 0 15px #1C232D;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 900px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.wrapper p {
+  font-size: 26px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+.wrapper .rate-info {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.app-body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.app-body input {
+  font-size: 60px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.app-body select {
+  cursor: pointer;
+  font-size: 36px;
+  padding: 10px 20px;
+}
+.app-body input, .app-body select {
+  background: none;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+.app-body input:focus, .app-body select:focus {
+  color: rgb(67, 171, 255);
+  outline: none;
+}
+.app-body option {
+  color: #333;
+}
+
+.section-left, .section-right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.swap {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-image: linear-gradient(45deg, #2B89E7, #11e763);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px 50px;
+}
+.swap:focus {
+  background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
